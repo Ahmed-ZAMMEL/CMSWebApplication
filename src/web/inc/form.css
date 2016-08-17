@@ -1,0 +1,33 @@
+form {
+    /* To center the form on the page */
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 400px;
+    /*To see the outline of the form*/
+    padding: 1px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #f2f2f2;
+    transform: translate(0, 10%);
+}
+
+form div + div {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+label {
+    display: inline;
+    vertical-align: top;
+    width: 90px;
+    margin-left: 1em;
+}
+
+legend {
+    text-align: center;
+}
+
+.btn {
+    width: 90px
+}
